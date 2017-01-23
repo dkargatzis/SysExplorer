@@ -30,7 +30,16 @@ this thread.
 is a temporary storage mechanism for created HTML pages to avoid re-creation of
 own pages in the future. Each stored object in cache has four fields:
 
-<b>path:</b>          drectory of stored HTML page <br>
+<table>
+<tr>
+  <td>
+    <b>path:</b>
+  </td>
+  <td>
+    drectory of stored HTML page <br>
+  </td>
+</tr>
+</table>
 <b>htmltext:</b>      HTML page content <br> 
 <b>htmllen:</b>       bytes of HTML page <br>
 <b>version</b>        if directory is changed we must create the HTML page again <br>
