@@ -36,13 +36,35 @@ own pages in the future. Each stored object in cache has four fields:
     <b>path:</b>
   </td>
   <td>
-    drectory of stored HTML page <br>
+    drectory of stored HTML page
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>htmltext:</b>
+  </td>
+  <td>
+    HTML page content
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>htmllen:</b>
+  </td>
+  <td>
+    bytes of HTML page 
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>version:</b>
+  </td>
+  <td>
+    if directory is changed we must create the HTML page again
   </td>
 </tr>
 </table>
-<b>htmltext:</b>      HTML page content <br> 
-<b>htmllen:</b>       bytes of HTML page <br>
-<b>version</b>        if directory is changed we must create the HTML page again <br>
+
 
 maximum cache size in this project = 100
 
