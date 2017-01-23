@@ -30,13 +30,13 @@ this thread.
 is a temporary storage mechanism for created HTML pages to avoid re-creation of
 own pages in the future. Each stored object in cache has four fields:
 
-<table>
+<table style="font-size:0.8em;">
 <tr>
   <td>
     <b>path:</b>
   </td>
   <td>
-    drectory of stored HTML page
+    directory of stored HTML page
   </td>
 </tr>
 <tr>
