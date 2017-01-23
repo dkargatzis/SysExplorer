@@ -30,10 +30,10 @@ this thread.
 is a temporary storage mechanism for created HTML pages to avoid re-creation of
 own pages in the future. Each stored object in cache has four fields:
 
-<b>path:</b>          drectory of stored HTML page
-<b>htmltext:</b>      HTML page content
-<b>htmllen:</b>       bytes of HTML page
-<b>version</b>        if directory is changed we must create the HTML page again
+<b>path:</b>          drectory of stored HTML page <br>
+<b>htmltext:</b>      HTML page content <br> 
+<b>htmllen:</b>       bytes of HTML page <br>
+<b>version</b>        if directory is changed we must create the HTML page again <br>
 
 maximum cache size in this project = 100
 
@@ -41,9 +41,9 @@ maximum cache size in this project = 100
 Execute:
 --------
 
-$ make clean
-$ make
-$ ./sysexplorer
+$ make clean <br>
+$ make <br>
+$ ./sysexplorer <br>
 
 Open localhost:11880 page and explore or search your computer's directories
 
