@@ -73,9 +73,9 @@ maximum cache size in this project = 100
 Execute:
 --------
 
-$ make clean <br>
-$ make <br>
-$ ./sysexplorer <br>
+```make clean```
+```make```
+```./sysexplorer```
 
-Open localhost:11880 page and explore or search your computer's directories
+Open ```localhost:11880``` page and explore and search your computer's directories
 
